@@ -1,5 +1,4 @@
 import React from 'react'
-import Title from '../Title'
 import styles from '../../css/about.module.css'
 import img from "../../images/me.png"
 
