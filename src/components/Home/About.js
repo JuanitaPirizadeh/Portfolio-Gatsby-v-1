@@ -11,7 +11,7 @@ const About = () => {
             <div className={styles.aboutCenter}>
             <article className={styles.aboutImg}>
             <div className={styles.imgcontainer}>
-            <img src={img} alt="about company"></img>
+            <img src={img} alt="about"></img>
 
             </div>
 
