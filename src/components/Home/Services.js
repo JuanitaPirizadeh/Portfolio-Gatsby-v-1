@@ -3,12 +3,15 @@ import Title from '../Title'
 import styles from '../../css/services.module.css'
 import services from '../../constants/services'
 
+
+
 const Services = () => {
     return (
        <section className={styles.services}>
-            <Title title="My" subtitle="Skills" />
+           
         
            <div className={styles.center}>
+
         {
             services.map((item,index)=>{
                 return <article key={index} className={styles.service}>

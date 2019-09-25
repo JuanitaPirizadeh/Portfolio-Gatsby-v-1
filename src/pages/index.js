@@ -13,7 +13,7 @@ export default () => (
     <SimpleHero>
         <Banner
             title="Juanita Pirizadeh"
-            info="An aspiring front end developer bla bla bla check ut out yaaall"
+            info="Im basically what you would call an aspiring frond-end developer, and this is my portfolio. Welcome!"
             >
                 <Link to="/projects" className="btn-white">
                     Check out my projects

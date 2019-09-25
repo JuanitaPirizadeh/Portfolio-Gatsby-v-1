@@ -6,6 +6,23 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`,
+siteMetadata:{
+  title: 'portfolio',
+  description: 'my first gatsby built portfolio',
+  author: '@JuanitaPirizadeh',
+  data: {
+    name: "juanita",
+    age: 24,
+  }
+},
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-plugin-sass`,
 'gatsby-plugin-styled-components'],
 }

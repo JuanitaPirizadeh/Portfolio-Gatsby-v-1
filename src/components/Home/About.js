@@ -7,7 +7,7 @@ import img from "../../images/me.png"
 const About = () => {
     return (
         <section className={styles.about}>
-            <Title title="about" subtitle="me" />
+       
             <div className={styles.aboutCenter}>
             <article className={styles.aboutImg}>
             <div className={styles.imgcontainer}>
@@ -17,10 +17,13 @@ const About = () => {
 
             </article>
             <article className={styles.aboutInfo}>
-                <h4>Get to know me</h4>
-                <p>Bla bla bla
+                <h4 style={{color: "darkorange"}}>Hey guys!</h4>
+                <h3>Here is a little something about me</h3>
+                <p>
                 </p>
-                <p>dalksjdlakjdalskfjöalfjaölfjaälsfaälfkaldkaädk</p>
+                <p>Jag har studerat på Nackademin snart tre terminer och herre gud vad tiden har gått fort!
+                    Det som inspirerar mig är inovativ och nytänkande design, detta varesig det gäller programering eller inredning till hemmet.
+                </p>
                 <button type="button"
                 className="btn-primary">
                     Read more

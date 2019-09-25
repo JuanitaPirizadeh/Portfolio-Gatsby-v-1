@@ -6,7 +6,7 @@ export default [
     icon: <FaRegKeyboard />,
     title: "HTML",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "I know some basic HTML och feel pretty comfortable withint the area",
   },
   {
     icon: <FaPaintBrush />,
