@@ -17,7 +17,7 @@
     "gatsby": "^2.15.18",
     "gatsby-plugin-sass": "^2.1.14",
     "gatsby-plugin-styled-components": "^3.1.6",
-    "gatsby-source-contentful": "^2.1.42",
+    "gatsby-source-contentful": "^8.9.1",
     "gatsby-source-filesystem": "^2.1.26",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
